@@ -1,9 +1,9 @@
 # 心力教练 · Xinli Coach
 
 > *Mental Energy Coach — 心力 = 能量管理能力 + 注意力夺回能力。不是意志，不是暗示。*
-> *Mental energy = energy management + attention reclaim. Not willpower, not suggestion.*
+> *Mental energy = energy management + attention reclaim. Not willpower, not suggestion.
 
-一个基于 **Hermes Agent Skill** 的个人心力教练系统。把"心力恢复、行动启动、反馈沉默期坚持、自我价值重建"四套干预，合成一条可执行的对话流程。内核来自认知行为疗法、压力科学（耗散结构 / 最优压力点）、自我决定理论与康德伦理学。
+一个个人心力教练系统，提供两种形态：**通用提示词版**（任何 AI 粘贴即用）与 **Hermes Skill 版**（对话自动触发）。
 
 *A personal mental-energy coaching system built as a Hermes Agent skill. Four intervention modules — Recovery, Launch, Sustain, Value — integrated into one conversational flow. Roots: CBT, stress science, Self-Determination Theory, Kantian ethics.*
 
@@ -41,7 +41,13 @@
 - 双裁判分域 *Two judges, two domains*（价值域=康德内心法官；能力域=归因裁判）
 - 最小可信行动四条件 *Minimum credible action*（难度可承受 / 触碰恐惧 / 自主可控 / 产生新证据）
 
-## 安装 · Install
+## 两种形态 · Two Forms
+
+### 通用版（任何 AI）· Portable Prompt (Any AI)
+
+打开 `XINLI-COACH-PROMPT.md`，将文档中标记的整段内容（【从这里开始】到【到这里结束】）粘贴到任意 AI 对话开头即可。Kimi / ChatGPT / 豆包 / Claude 均可。
+
+### Hermes Skill 版 · Hermes Skill
 
 将 `xinli-coach/` 文件夹复制到 Hermes skills 目录：
 *Copy the folder into your Hermes skills directory:*
@@ -50,7 +56,7 @@
 ~/AppData/Local/hermes/skills/
 ```
 
-## 使用 · Usage
+## 自然语言触发（Hermes 版）· Natural Triggers (Hermes)
 
 安装后无需任何命令，自然语言触发：*Natural language triggers only:*
 
