@@ -70,7 +70,11 @@ xinli-coach/
     ├── module-sustain.md             # 模块C：坚持 Sustain
     └── module-value.md               # 模块D：价值 Value
 ```
+## 声明 · Disclaimer
 
+框架灵感来自公开的心理学科普内容（认知行为疗法、压力科学、自我决定理论等公共知识），全部内容均已重述改写，无逐字引用。
+
+*Framework inspired by publicly available psychology popularization content (CBT, stress science, Self-Determination Theory, etc.). All content has been rewritten; no verbatim reproduction.*
 ## License
 
 MIT
